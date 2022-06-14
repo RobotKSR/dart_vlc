@@ -67,7 +67,7 @@ class PlayerState {
   bool is_completed_ = false;
   int32_t position_ = 0;
   int32_t duration_ = 0;
-  float volume_ = 1.0;
+  float volume_ = 0.0;
   float rate_ = 1.0;
   bool is_playlist_ = false;
   bool is_started_ = false;
